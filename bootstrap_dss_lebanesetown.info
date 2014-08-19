@@ -1,0 +1,78 @@
+name = The Syrian Town Oral History Project Theme
+description = The Lafayette College Libraries Digital Scholarship Services Syrian Town Oral History Project
+core = 7.x
+base theme = bootstrap_lafayette_lib_dss
+
+; Regions
+regions[navigation]     = 'Navigation'
+
+; For styling the Simple Search block
+regions[simple_search]	  = 'Simple Search'
+
+; For the advanced search modeless dialog (implements the Bootstrap "modal" feature)
+; Refactor?
+regions[search_modal]     = 'Advanced Search Modal'
+
+; For offering Shibboleth, OAuth2...
+regions[auth]	  = 'Authentication'
+; For sharing content over Facebook, Twitter, Google...
+regions[share]	  = 'Content Sharing'
+; For the contact form modal
+regions[contact]  = 'Contact Interface'
+
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[slide_panel]    = 'Slide Panel'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[hidden]         = 'Hidden'
+
+; JavaScripts
+
+; Bootstrap core (performance)
+scripts[] = 'js/bootstrap.min.js'
+
+scripts[] = 'js/build/bootstrap_helper.min.js'
+scripts[] = 'js/build/advanced_search_modal.min.js'
+; scripts[] = 'js/src/advanced_search_modal.js'
+scripts[] = 'js/build/sharethis_helper.min.js'
+scripts[] = 'js/build/advanced_search_modal_helper.min.js'
+
+; Stylesheets
+
+; Bootstrap core (modified in order to avoid locally compiling LESS)
+stylesheets[all][] = css/bootstrap.min.css
+
+; Base theme
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/bootstrap_navbar.css
+stylesheets[all][] = css/mobile/bootstrap_navbar_mobile.css
+stylesheets[all][] = css/mobile/modal_mobile.css
+
+stylesheets[all][] = css/lafayette_lib_dss_page.css
+
+; Lightbox2
+stylesheets[all][] = css/lightbox2.css
+
+; Snap.js
+; stylesheets[all][] = css/snap.css
+stylesheets[all][] = css/slide_panel.css
+
+; stylesheets[all][] = css/mbExtruder.css
+
+; JavaScript
+stylesheets[all][] = css/modal.css
+stylesheets[all][] = css/sharethis.css
+
+; Islandora
+stylesheets[all][] = css/islandora_solr.css
+stylesheets[all][] = css/islandora_book.css
+
+; (To be integrated)
+stylesheets[all][] = css/dss_digital.css
+
+stylesheets[all][] = css/openseadragon.css

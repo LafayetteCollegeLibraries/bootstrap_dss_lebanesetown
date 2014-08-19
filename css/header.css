@@ -1,0 +1,418 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+
+
+div.container {
+
+    margin-top: 0.8%;
+}
+
+div.main-container {
+
+    /* margin-top: 10.9%; */
+    /* margin-top: 1.9%; */
+}
+
+
+
+/* Remove the backdrop */
+/* Work-around; refactor */
+div.modal-backdrop.fade.in {
+
+    background-color: transparent;
+    z-index: -10000;
+}
+
+
+
+
+
+
+div.auth-icon,
+div.share-icon {
+
+    border: 2px solid;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+
+div.modal-container.container {
+
+    float: left;
+}
+
+
+
+.dss-logo {
+
+    border: 2px solid;
+}
+
+
+.nav.nav-tabs,
+.node.node-page {
+
+    clear:both;
+}
+
+
+.affix {
+
+    position: fixed;
+    top: 0px;
+    width: 97%;
+}
+
+.affix-top {
+
+    /*
+    position: fixed;
+    */
+    /*
+    top: 22%;
+    */
+}
+
+.affix-bottom {
+
+    position: absolute;
+    top: 0px;
+}
+
+#block-menu-menu-footer-menu {
+
+    margin: auto;
+    width: 64%;
+}
+
+#block-menu-menu-footer-menu .menu {
+
+    text-align: center;
+}
+
+
+#advanced-search-anchor-wrapper {
+
+    margin-left: 40px;
+}
+
+section#block-islandora-solr-simple {
+
+    /* float: right; */
+    float: left;
+    /*
+    width: 22%;
+    */
+}
+
+section#block-islandora-solr-simple form#islandora-solr-simple-search-form {
+
+    margin-bottom: 0px;
+}
+
+form#islandora-solr-simple-search-form div div#edit-simple.container-inline div.control-group {
+
+    /* float: right; */
+    display: inline;
+    /* margin-top: 5px; */
+}
+
+input#edit-islandora-simple-search-query.form-text {
+
+    /*
+    margin-top: 5px;
+    */
+    margin-top: 14px;
+}
+
+form#islandora-solr-simple-search-form div div#edit-simple.container-inline div.control-group div.controls {
+
+    display: inline;
+}
+
+#edit-islandora-simple-search-query {
+
+
+}
+
+form#islandora-solr-simple-search-form div div#edit-simple.container-inline button#edit-submit.btn {
+
+    float: right;
+}
+
+section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div {
+
+    /* margin-top: 5px; */
+    display: inline;
+
+    /*
+    display: block;
+    */
+}
+
+html.js body.html header#navbar.navbar div.navbar-inner div.container div nav div.auth-share-simple-search-container div.region section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div a {
+
+    display: block;
+}
+
+#main-content {
+
+    display: block;
+    clear: both;
+}
+
+#page-site-links-container {
+
+    float: right;
+}
+
+#copyright-container,
+#contact-container {
+
+    width: inherit;
+}
+
+body {
+
+    padding-top: inherit;
+}
+
+.navbar-header h2 {
+
+    margin-top: inherit;
+}
+
+.navbar-header h1 {
+
+    margin-bottom: inherit;
+}
+
+/**
+ * The <div> container for the simple search block button
+ * This overrides a rule set for...
+ * .container-inline div, .container-inline label
+ * ...in the bootstrap theme
+*/
+
+.islandora-simple-search-button-container {
+
+    /* display: inline !important; */
+}
+
+
+
+
+/* Added by Thom */
+
+
+/* float search text box left of search button and set search text box margin */
+
+html.js body.html header#navbar.navbar div.navbar-inner div.container div nav div.auth-share-simple-search-container div.region section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div div#islandora-simple-search-wrapper.container-inline div.control-group {
+
+	float:left;
+	margin-bottom:0px;
+}
+
+/* set height of search text box to same height as search button and style its border*/
+
+input#edit-islandora-simple-search-query.form-text {
+
+	height: 28px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+}
+
+/* set background gradient of navbar and ensure no navbar border */
+
+.navbar-inner {
+	background-image: linear-gradient(to bottom, #545454, #333333);
+	border: none;
+	border-radius: 0px;
+}
+
+/* get rid of margin on top of navbar */
+
+div.container {
+
+	margin-top: 0px;
+}
+
+/* set right margin of Skillman and LC links in banner */
+
+html.js body.html header#navbar.navbar div.navbar-header h2{
+
+	margin-right:10px;
+}
+
+/* set right margin of site name in banner */
+
+html.js body.html header#navbar.navbar div.navbar-header h1{
+
+	margin-right:10px;
+}
+
+/* set color of hyperlinks */
+
+a {
+
+	color: #1A98DB;
+}
+
+/* get rid of margin below search fields in advanced search window */
+
+.control-group {
+
+	margin-bottom: 0px;
+}
+
+/* set margin below Boolean operators in advanced search window */
+
+html.js body.html div.search-modal div#advanced-search-modal.lafayette-dss-modal div.modal-dialog div.modal-content div.modal-body section#block-islandora-solr-dss-advanced.block form#islandora-dss-solr-advanced-search-form div div#islandora-solr-advanced-terms div.islandora-solr-advanced-term div.islandora-solr-advanced-boolean div#edit-terms-0-boolean.form-radios div.form-type-radio{
+
+	margin-bottom:8px;
+}
+
+/* add margin above and below log in and share icons */
+
+div.modal-container.container {
+
+	margin-top: 4px;
+	margin-bottom: 2px;
+}
+
+/* configure placement of DSS logo */
+
+.navbar .logo {
+
+	margin-left: 2.25%;
+	margin-right: 2%;
+	margin-top: 2px;
+	margin-bottom: 0px;
+}
+
+#navbar .navbar-inner .container {
+
+    height: 54px;
+}
+
+/* adjust width of area containing search, log-in, and share */
+
+html.js body.html header#navbar.navbar div.navbar-inner div.container div nav div.auth-share-simple-search-container{
+
+    /* width:365px; */
+    width:372px;
+}
+
+/* style all buttons */
+
+.navbar .btn, .navbar .btn-group {
+
+	border-radius: 0px;
+}
+
+/* reset padding around and style font of links within menu button */
+
+.navbar .nav > li > a {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    text-shadow:none;
+    color:#DDDDDD;
+}
+
+/* style menu buttons */
+
+.navbar .nav > li {
+
+	width: 100px;
+	border-color:#DDDDDD;
+	border-bottom:none;
+	border-top:none;
+	border-right:none;
+	background:none;
+	border-width: 1px;
+	box-shadow:none;
+}
+
+/* set right border of last menu button */
+
+.navbar .nav > li.last {
+
+	border-right:solid;
+	border-color:#DDDDDD;
+	border-width:1px;
+}
+
+/* set padding to create appropriate height on menu buttons */
+
+.navbar .nav > li > a {
+
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+/* hover style for menu buttons */
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+
+	background-color:#DDDDDD;
+	color:#545454;
+}
+
+/* remove padding on menu buttons, set their width */
+
+.navbar .nav > li.btn{
+
+	padding:0px;
+
+	/*
+	  width:124px;
+	  */
+	/* griffinj */
+	width: 98px;
+}
+
+/* style and set size of divs around login and share icons */
+
+div.auth-icon, div.share-icon {
+    border: none;
+    height: 32px;
+    margin: auto;
+}
+
+
+
+
+
+/* set height, background size, and font color of banner */
+
+.navbar-header {
+
+	background-size: auto 100%;
+	height: 130px;
+	color:#EEEEEE;
+}
+
+/* resize DSS link font and top margin in banner */
+
+html.js body.html header#navbar.navbar div.navbar-header h1 {
+
+	font-size:52px;
+	margin-top:0px;
+}
+
+/* resize Skillman and LC links font and bottom and top margins in banner */
+
+html.js body.html header#navbar.navbar div.navbar-header h2 {
+
+	font-size:25px;
+	margin-bottom:0px;
+	margin-top:38px;
+}
+

@@ -1,0 +1,17 @@
+/**
+ * @file Styling rules for the Lightbox2 widget (integrated using the lightbox2 Drupal Module
+ * @author griffinj@lafayette.edu
+ * @author goodnowt@lafayette.edu
+ *
+ */
+
+.project-summary {
+
+    display: none;
+}
+
+#modalContainer .project-summary {
+
+    display: inline;
+}
+

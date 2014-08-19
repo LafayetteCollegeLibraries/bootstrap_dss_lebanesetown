@@ -1,0 +1,10 @@
+<?php
+
+  /**
+   * @file The search results template for indexed site content
+   * @author griffinj@lafayette.edu
+   *
+   */
+?>
+
+<div>The Result</div>

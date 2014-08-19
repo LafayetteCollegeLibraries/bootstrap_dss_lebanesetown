@@ -1,0 +1,10 @@
+/**
+ * @file Styling for the OpenSeadragon interface
+ * @author griffinj@lafayette.edu
+ *
+ */
+
+.islandora-openseadragon canvas {
+
+    background-color: #ffffff !important;
+}

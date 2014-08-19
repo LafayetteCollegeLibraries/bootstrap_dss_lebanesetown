@@ -1,0 +1,259 @@
+/**
+ * @file Styling for the slide panel
+ *
+ */
+
+.snap-content {
+
+    /* position: absolute; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  /* z-index: 2; */
+  overflow: auto;
+  
+  /* background-color: #ffffff; */
+
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  /*
+  -webkit-transform: background-color 0.1s ease;
+  -moz-transform: background-color 0.1s ease;
+  -ms-transform: background-color 0.1s ease;
+  -o-transform: background-color 0.1s ease;
+  transition: background-color 0.1s ease;
+  */
+}
+
+.snap-drawers {
+
+    float: left;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* width: auto; */
+    /* width: 30%; */
+    height: auto;
+
+    width: 0%;
+    /*
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -ms-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+    */
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.snap-drawer {
+
+    /* position: absolute; */
+    top: 0;
+    right: auto;
+    bottom: 0;
+    left: auto;
+
+    /* width: 265px; */
+    /* height: auto; */
+    height: 0;
+    overflow: auto;
+
+    /* opacity: 0.0; */
+    /*
+      -webkit-transform: opacity 0.3s ease;
+      -moz-transform: opacity 0.3s ease;
+      -ms-transform: opacity 0.3s ease;
+      -o-transform: opacity 0.3s ease;
+      transition: opacity 0.3s ease;
+      */
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.snap-drawer-left {
+
+    left: 0;
+    z-index: 1;
+    margin-left: 2%;
+}
+
+.snap-expand-left .snap-drawer-left {
+
+    height: auto;
+}
+
+.snap-drawer-right {
+  right: 0;
+  z-index: 1;
+}
+
+.snapjs-left .snap-drawer-right,
+.snapjs-right .snap-drawer-left {
+
+    opacity: 0.0;
+}
+
+.snapjs-expand-left .snap-drawer-left,
+.snapjs-expand-right .snap-drawer-right {
+  width: 100%;
+}
+
+.panel-container {
+
+    position: relative;
+}
+
+.main-container.snap-collapse-left {
+
+    float: right;
+    padding-top: 2px;
+
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -ms-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+}
+
+/**
+ * @note width must remain at or below 70%
+ *
+ */
+
+.main-container.snap-expand-left {
+
+    width: 70%;
+    float: right;
+}
+
+.snap-content.snap-expand-left {
+
+    background-color: transparent;
+}
+
+.snap-drawers.snap-expand-left {
+
+    opacity: 1.0;
+    width: 30%;
+}
+
+/**
+ * For the date slider
+ *
+ */
+.islandora-solr-facet-date-slider {
+
+    width: 90%;
+    margin-left: 4%;
+}
+
+/**
+ * 
+ *
+ */
+.snap-trigger,
+.snap-trigger img {
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.snap-trigger {
+
+    /* background-image: url('../files/loader_25_25.gif'); */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    opacity: 0;
+}
+
+.islandora-basic-collection-display-switch .links li:first-child {
+
+    background-image: url("../files/gif-load.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.islandora-basic-collection-display-switch .links li:first-child.loaded {
+
+    background-image: none;
+}
+
+.snap-trigger {
+
+    /* background-image: url("../files/gif-load.gif"); */
+    /* opacity: 0; */
+}
+
+.snap-trigger.shown,
+.snap-trigger img.shown {
+
+    background-image: none;
+    opacity: 1;
+}
+
+/*
+.menu {
+  height:100%;
+}
+ 
+.menu.collapse {
+  float:left;
+  height: 100% !important;
+  width: auto;
+}
+ 
+menu.collapse.height {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+ 
+menu.collapse.width {
+  position: relative;
+  width: 0;
+  overflow: hidden;
+  -webkit-transition: width 0.35s ease;
+  -moz-transition: width 0.35s ease;
+  -o-transition: width 0.35s ease;
+  transition: width 0.35s ease;
+}
+ 
+menu.collapse.in.width {
+  width: auto;
+}
+ 
+menu.collapse.in.height {
+  height: auto;
+}
+ 
+menu.collapse-inner {
+  position: relative;
+  width: 250px;
+  height: 100%;
+}
+*/

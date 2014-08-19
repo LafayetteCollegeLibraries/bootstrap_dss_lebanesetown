@@ -1,0 +1,53 @@
+/**
+   * @file
+   * @author griffinj
+   * Theming for the Islandora advanced block
+   *
+   */
+
+section#block-islandora-solr-advanced.block form#islandora-solr-advanced-search-form div div#islandora-advanced-search-inner-wrapper div.islandora-solr-advanced-controls {
+    
+    text-align: center;
+    width: 35%;
+}
+
+div#advanced-search-modal {
+
+    /* width: 62% */
+    /* width: 54% */
+    /* width: 100%; */
+    
+    /*
+    width: 856px;
+    */
+    /*
+    width: 490px;
+    */
+    width: 560px;
+}
+
+form#islandora-dss-solr-advanced-search-form div div#islandora-solr-advanced-terms div div.control-group {
+
+    width: 20%;
+}
+
+button.islandora-solr-search-remove {
+
+    /*
+    margin-left: 5%;
+    */
+}
+
+form#islandora-dss-solr-advanced-search-form div div#islandora-solr-advanced-terms div fieldset.form-wrapper div.fieldset-wrapper div.form-type-textfield {
+
+    margin-right: 15px;
+}
+
+/**
+ * Disable the metadata fields from being displayed within the grid layout
+ *
+ */
+.grid-solr-label, .grid-solr-value {
+
+    display: none;
+}

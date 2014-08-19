@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Styling for templates implemented or overridden for the islandora_book Module
+ * @author griffinj@lafayette.edu
+ *
+ */
+
+.book-page-wrapper {
+
+    background-color: #ffffff;
+    padding: 8px;
+}

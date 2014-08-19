@@ -1,0 +1,627 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+.navbar .logo {
+
+    margin-top: 0.7%;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+div.container {
+
+    margin-top: 0.8%;
+}
+
+div.main-container {
+
+    /* margin-top: 10.9%; */
+    /* margin-top: 1.9%; */
+}
+
+.islandora-solr-facet-pages-wrapper {
+
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+header#navbar {
+
+    background-color: #ffffff;
+}
+
+div.navbar-header {
+
+    /*
+    text-align: center;
+    */
+    text-align: right;
+}
+
+div.navbar-header h2 {
+
+    /*
+    margin-right: 50%;
+    */
+    margin-right: 10%;
+    font-size: x-large;
+}
+
+.navbar-inner {
+
+    /*
+      width: 100%
+      */
+}
+
+.nav-tabs {
+
+    margin-bottom: 0px;
+}
+
+.nav-tabs > li > a {
+
+    background-color: #cccccc;
+    border-color: #ffffff;
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+#block-system-navigation .menu.nav a {
+
+    font-size: large;
+    padding: 0px 0px 6px;
+    color: #CDD3CD;
+}
+
+.well {
+
+    padding: 12px;
+}
+
+.well section {
+
+    margin-top: 6px;
+}
+
+.well section#block-islandora-solr-facet-pages-islandora-solr-facet-pages {
+
+    background-color: #ffffff;
+}
+
+.well .block {
+
+    background-color: #590000;
+    border-radius: 4px 4px 4px 4px;
+    padding: 6px;
+}
+
+/* Remove the backdrop */
+/* Work-around; refactor */
+div.modal-backdrop.fade.in {
+
+    background-color: transparent;
+    z-index: -10000;
+}
+
+
+
+div.modal-container.container {
+
+    float: left;
+}
+
+.modal-container.container,
+.modal-control-container.container {
+
+    /*
+    width: 48px;
+    */
+
+    width: 64px;
+    text-align:center;
+}
+
+.dss-logo {
+
+    border: 2px solid;
+}
+
+.breadcrumb {
+
+    width: 60%;
+    float: left;
+}
+
+#breadcrumb-container {
+
+    height: 36px;
+}
+
+#copyright-container {
+
+    width: 12%;
+    float:right;
+}
+
+.nav.nav-tabs,
+.node.node-page {
+
+    clear:both;
+}
+
+.footer-menu-item {
+
+    padding: 0px 24px;
+    /*
+    float: left;
+    */
+    display:inline;
+
+    text-align: center;
+    border-right: 1px solid;
+}
+
+.footer-menu-item.last {
+
+    border-right: none;
+}
+
+.footer-menu-divider {
+
+    margin-left: 20%;
+}
+
+
+
+#block-menu-menu-footer-menu {
+
+    margin: auto;
+    width: 64%;
+}
+
+#block-menu-menu-footer-menu .menu {
+
+    text-align: center;
+}
+
+.hybridauth-icon-hybridauth-24-lafayette {
+
+    background-image: url('../files/lafayette_shib.png');
+}
+
+.hybridauth-icon-hybridauth-32-lafayette {
+
+    background-image: url('../files/lafayette_shib_32_grayscale.png');
+}
+
+.hybridauth-widget li {
+
+    float: left;
+    clear: left;
+}
+
+#advanced-search-anchor-wrapper {
+
+    margin-left: 40px;
+}
+
+section#block-islandora-solr-simple {
+
+    /* float: right; */
+    float: left;
+    /*
+    width: 22%;
+    */
+}
+
+section#block-islandora-solr-simple form#islandora-solr-simple-search-form {
+
+    margin-bottom: 0px;
+}
+
+form#islandora-solr-simple-search-form div div#edit-simple.container-inline div.control-group {
+
+    /* float: right; */
+    display: inline;
+    /* margin-top: 5px; */
+}
+
+input#edit-islandora-simple-search-query.form-text {
+
+    /*
+    margin-top: 5px;
+    */
+    margin-top: 14px;
+}
+
+form#islandora-solr-simple-search-form div div#edit-simple.container-inline div.control-group div.controls {
+
+    display: inline;
+}
+
+#edit-islandora-simple-search-query {
+
+
+}
+
+form#islandora-solr-simple-search-form div div#edit-simple.container-inline button#edit-submit.btn {
+
+    float: right;
+}
+
+section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div {
+
+    /* margin-top: 5px; */
+    display: inline;
+
+    /*
+    display: block;
+    */
+}
+
+html.js body.html header#navbar.navbar div.navbar-inner div.container div.nav-collapse nav div.auth-share-simple-search-container div.region section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div a {
+
+    display: block;
+}
+
+#main-content {
+
+    display: block;
+    clear: both;
+}
+
+#page-site-links-container {
+
+    float: right;
+}
+
+#copyright-container,
+#contact-container {
+
+    width: inherit;
+}
+
+body {
+
+    padding-top: inherit;
+    background-color: #590000;
+}
+
+article {
+
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+header#page-header {
+
+    color: #CDD3CD;
+}
+
+.breadcrumb {
+
+    background-color: #cccccc;
+    border-bottom: 1px solid #4C4C45;
+    border-left: 1px solid #ADA86B;
+    border-top: 1px solid #ADA86B;
+}
+
+.breadcrumb a {
+
+    color: #404040;
+}
+
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+
+    color: #990000;
+    text-decoration: none;
+}
+
+#block-menu-menu-footer-menu {
+
+    background-color: #CCCCCC;
+    border-bottom: 1px solid #4C4C45;
+    border-left: 1px solid #ADA86B;
+    border-top: 1px solid #ADA86B;
+}
+
+#block-menu-menu-footer-menu .menu {
+
+    margin-top: 10px;
+}
+
+#block-menu-menu-footer-menu a {
+
+    color: #404040;
+}
+
+#block-menu-menu-footer-menu a:hover,
+#block-menu-menu-footer-menu a:focus {
+
+    color: #990000;
+    text-decoration: none;
+}
+
+
+
+.main-container section.block-aggregator .block-title {
+
+    text-align: center;
+}
+
+.main-container section.span9 section#block-nodeblock-7 h2.block-title {
+
+    font-size: large;
+}
+
+.navbar-header h2 {
+
+    margin-top: inherit;
+}
+
+.navbar-header h1 {
+
+    margin-bottom: inherit;
+}
+
+/**
+ * DSS Islandora East Asia Image Collections Solution Pack
+ *
+ */
+.islandora-page-metadata-wrapper {
+
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+/**
+ * Bootstrap carousel for page--front Node
+ *
+ */
+
+.carousel-caption {
+
+    padding: 4px;
+}
+
+.carousel-caption h2 {
+
+    font-size: large;
+    color: #ffffff;
+}
+
+/**
+ * Islandora Basic Collection Solution Pack
+ *
+ */
+.islandora-basic-collection-wrapper {
+
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+.islandora-basic-collection-thumb {
+
+    text-align: center;
+}
+
+/**
+ * Islandora Solr module
+ *
+ */
+#islandora-solr-top,
+.islandora-solr-content {
+
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+dl.solr-thumb {
+
+    width: 200px;
+    text-align: center;
+}
+
+dl.solr-fields {
+
+    width: 72%;
+}
+
+dd.solr-value {
+
+    padding-left: 68px;
+}
+
+/**
+ * Islandora Book Solution Pack
+ *
+ */
+
+.islandora-book-pages-grid dl {
+
+    display: inline-block;
+    margin: 1.5em 1.84%;
+    min-height: 180px;
+    min-width: 100px;
+    vertical-align: top;
+    width: 20%;
+    text-align: center;
+}
+
+.islandora-book-pages {
+
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+/**
+ * The <div> container for the simple search block button
+ * This overrides a rule set for...
+ * .container-inline div, .container-inline label
+ * ...in the bootstrap theme
+*/
+
+.islandora-simple-search-button-container {
+
+    /* display: inline !important; */
+}
+
+/* Added by Thom */
+
+
+/* float search text box left of search button and set search text box margin */
+
+html.js body.html header#navbar.navbar div.navbar-inner div.container div.nav-collapse nav div.auth-share-simple-search-container div.region section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div div#islandora-simple-search-wrapper.container-inline div.control-group {
+	
+	float:left;
+	margin-bottom:0px;
+}
+
+/* search button styling */
+
+html.js body.html header#navbar.navbar div.navbar-inner div.container div.nav-collapse nav div.auth-share-simple-search-container div.region section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div div#islandora-simple-search-wrapper.container-inline div.islandora-simple-search-button-container button#edit-submit.btn {
+	
+	margin-top:14px;
+	height:28px;
+	/* Disabled by James */
+	/* width:32px; */
+	margin-right:10px;
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
+}
+
+/* set height of search text box to same height as search button and style its border*/
+
+input#edit-islandora-simple-search-query.form-text {
+	
+	height: 28px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+}
+
+/* set background gradient of navbar and ensure no navbar border */
+
+.navbar-inner {
+
+    /*
+      807e6f
+      */
+    background-image: linear-gradient(to bottom, #cac6ac, #807e6f);
+    /* background-image: linear-gradient(to bottom, #f2f0e0, #cac6ac); */
+    border: none;
+    border-radius: 0px;
+}
+
+.navbar-inner a {
+
+    color: #2d2d27;
+}
+
+/* add margin to left of advanced link */
+html.js body.html header#navbar.navbar div.navbar-inner div.container div.nav-collapse nav div.auth-share-simple-search-container div.region section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div a {
+	
+	margin-left:48px;
+}
+
+/* get rid of margin on top of navbar */
+
+div.container {
+	
+	margin-top: 0px;
+}
+
+/* add margin above and below log in and share icons */
+
+div.modal-container.container {
+	
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+/* configure placement of DSS logo */
+
+.navbar .logo {
+	
+	margin-left: 2.25%;
+	margin-right: 2%;
+	margin-top: 4px;
+	margin-bottom: 2px;
+}
+
+/* set margin between search bar/button and advanced link */
+
+input#edit-islandora-simple-search-query.form-text {
+	
+	margin-bottom: 4px;
+}
+
+/* set right margin of Skillman and LC links in banner */
+
+html.js body.html header#navbar.navbar div.navbar-header h2{
+	
+	margin-right:10px;	
+}
+
+/* set right margin of site name in banner */
+
+html.js body.html header#navbar.navbar div.navbar-header h1{
+	
+	margin-right:10px;
+}
+
+/* resize DSS logo */
+
+html.js body.html header#navbar.navbar div.navbar-inner div.logo-container a img{
+	
+	height:65px;
+}
+
+a {
+
+    /* font-family: 'Roboto', sans-serif; */
+    color: #0000A0;
+}
+
+/* adjust margin above search elements */
+
+html.js body.html header#navbar.navbar div.navbar-inner div.container div.nav-collapse nav div.auth-share-simple-search-container div.region section#block-islandora-solr-simple.block form#islandora-solr-simple-search-form div div#islandora-simple-search-wrapper.container-inline {
+	
+	margin-top:3px;
+}
+
+/* set width of div around search, log in, and share */
+
+div.auth-share-container.container {
+
+    /**
+     * Disabled by James
+     */
+    /* width: 368px; */
+}
+
+/* get rid of margin below search fields in advanced search window */
+
+.control-group {
+	
+	margin-bottom: 0px;
+}
+
+/* set margin below Boolean operators in advanced search window */ 
+
+html.js body.html div.search-modal div#advanced-search-modal.lafayette-dss-modal div.modal-dialog div.modal-content div.modal-body section#block-islandora-solr-dss-advanced.block form#islandora-dss-solr-advanced-search-form div div#islandora-solr-advanced-terms div.islandora-solr-advanced-term div.islandora-solr-advanced-boolean div#edit-terms-0-boolean.form-radios div.form-type-radio{
+	
+	margin-bottom:8px;
+}

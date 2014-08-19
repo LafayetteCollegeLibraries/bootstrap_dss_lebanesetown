@@ -1,0 +1,2339 @@
+/**
+ * @author goodnowt@lafayette.edu
+ *
+ */
+  
+/* set color for background, minimum width, and text alignment for all pages*/
+
+body{
+	
+	background-color:#FFFFFF;
+}
+
+/**
+ * @author griffinj@lafayette.edu
+ *
+ */
+#block-menu-menu-authentication-cas .menu {
+
+    margin-bottom: 0px;
+}
+
+#block-menu-menu-authentication-cas .menu li {
+http://digital.stage.lafayette.edu/collections/eastasia
+    width: auto;
+    border-right: none;
+}
+
+#block-menu-menu-authentication-cas .menu .first a {
+
+    color: #1A98DB;
+}
+
+#block-menu-menu-authentication-cas .menu .first a:hover {
+
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* style log out hyperlink */
+
+.navbar-inner a {
+	
+	color:#DDDDDD;
+}
+
+.navbar-inner a:hover{
+	
+	text-decoration:none;
+	color:#DDDDDD;
+}
+
+/* style breadcrumbs, contact, and copyright */
+
+.breadcrumb {
+
+	background-image:linear-gradient(to bottom, #545454, #333333);
+	border-radius:1px;
+	border:none;
+	text-shadow:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	line-height:normal;
+}
+
+.breadcrumb > li {
+	
+	line-height:normal;
+}
+
+.breadcrumb a {
+
+	color:#DDDDDD;
+	text-shadow:none;
+}
+
+.breadcrumb a:hover {
+	
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+.breadcrumb a:focus {
+
+	color:#DDDDDD;
+	text-shadow:none;
+}
+
+#breadcrumb-container {
+	
+	font-size:0px;
+}
+
+ul.breadcrumb {
+	
+	padding-left:15px;
+	padding-right:15px;
+	max-width:calc(100% - 30px);
+	width:auto;
+	font-size:14px;
+}
+
+#page-site-links-container {
+	
+	width:auto;
+	font-size:14px;
+}
+
+#contact-container {
+	
+	width:74px;
+}
+
+#copyright-container {
+	
+	width:106px;
+}
+
+/* style contact link */
+
+#contact-container {
+	
+	margin-right:1px;
+	max-width:auto;
+}
+
+/* style copyright link */
+
+#copyright-container{
+	
+	max-width:auto;
+}
+
+/* style footer */
+
+#block-menu-menu-footer-menu {
+	
+	border:none;
+	width:100%;
+	background-image: linear-gradient(to bottom, #545454, #333333);
+	margin-top:1%;
+}
+
+.footer.container {
+	
+	width:100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* center text in footer */
+
+html.js body#thmr_undefined.html footer.footer div.region section#block-menu-menu-footer-menu.block ul.menu {
+	
+	margin-left:0px;
+}
+
+/* set color of footer hyperlinks */
+
+#block-menu-menu-footer-menu a {
+	
+	color:#DDDDDD;
+}
+
+/* set color of menu item borders in footer */
+
+.footer-menu-item {
+	
+	border-color:#DDDDDD;
+}
+
+/* get rid of margin to left of link list in footer */
+
+html.js body.html footer.footer div.region section#block-menu-menu-footer-menu.block ul.menu {
+	
+	margin-left:0px;
+}
+
+/* style hover effect for links in footer */
+
+.footer-menu-item {
+	
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:-4px;
+}
+
+#block-menu-menu-footer-menu a {
+	
+	padding-left:24px;
+	padding-right:24px;
+}
+
+#block-menu-menu-footer-menu a:hover, #block-menu-menu-footer-menu a:focus {
+	
+	background-color:#DDDDDD;
+	color:#545454;
+}
+
+/* style blog RSS and contact blocks */
+
+.main-container section.block-aggregator, .main-container section.block-nodeblock {
+	
+	background-color:#F5F5F5;
+	border-radius:2px;
+	width:44%;
+	margin-bottom: 10px;
+	padding:1%;
+	margin-left:1%;
+	margin-right:1%;
+	border:1px solid;
+	border-color:#AAAAAA;
+}
+
+#block-aggregator-feed-2 {
+	
+	margin-right:0px;
+}
+
+#block-nodeblock-7 {
+	
+	margin-left:0px;
+}
+
+/* placement of blog RSS block */
+
+html.js body.html div.main-container div.row-fluid section.span12 section#block-aggregator-feed-2.block {
+	
+	float: left;
+}
+
+/* placement of contact block */
+
+html.js body.html div.main-container div.row-fluid section.span12 section#block-nodeblock-7.block{
+	
+	float:right;
+}
+
+/* reset margins above and to left of DSS logo in navbar */
+
+.navbar .logo {
+	
+	margin-top:2px;
+	margin-left:0%;
+	margin-right:65px;
+}
+
+/* style LC log-in logo and link */
+
+#shib_login_url {
+	
+    margin-top: 1px;
+}
+
+.hybridauth-icon-hybridauth-32-lafayette {
+
+    margin-left: 2px;
+}
+
+#shib_login_url a {
+
+    margin-left: 2px;
+    font-weight: inherit;
+}
+
+/* set top margin of nav icons */
+
+div.modal-container.container {
+
+    margin-top: 3px;
+}
+
+/* fix width and top margin of menu nav icon */
+
+#menu-toggle-icon {
+    margin-top: 3px;
+    width: inherit;
+}
+
+/* set font-color of log out text */
+
+html.js body#thmr_undefined.html header#navbar.navbar div.navbar-inner div.menu-toggle-container div.auth-share-container div.auth-container div#auth-control-container.modal-control-container div.auth-link a {
+	
+    color:#DDDDDD;
+}
+
+/* style title at top of pages */
+
+.lead {
+	
+	font-size:40px;
+	line-height:42px; 
+}
+
+/* suppress extra title on large sub-collection pages */
+
+html.js body.html div.main-container div.row-fluid section.span12 section#block-quicktabs-east-asia-image-collections.block h2.block-title {
+	
+	display:none;
+}
+
+html.js body.html div.main-container div.row-fluid section.span12 section#block-quicktabs-marquis-de-lafayette-prints-coll.block h2.block-title {
+	
+	display:none;
+}
+
+html.js body.html div.main-container div.row-fluid section.span12 article#node-19.node div.field div.field-items div.field-item h2 {
+	
+	display:none;
+}
+
+html.js body.html div.main-container div.row-fluid section.span12 article#node-21.node div.field div.field-items div.field-item h2{
+	
+	display:none;
+}
+
+html.js body.html div.main-container div.row-fluid section.span12 article#node-20.node div.field div.field-items div.field-item h2{
+	
+	display:none;
+}
+
+/* style projects grid */
+
+.project-grid-item {
+	
+	background-color:#F5F5F5;
+	padding:10px;
+	margin-bottom:20px;
+	border:1px solid;
+	border-color:#AAAAAA;
+	border-radius:2px;
+	float:left;
+	width:188px;
+	margin-left:1%;
+	margin-right:1%;
+	height:250px;
+}
+
+.project-grid-item > p {
+	
+	text-align:center;
+}
+
+/* style people divs */
+
+.contact-profile {
+	
+	background-color:#F5F5F5;
+	padding:10px;
+	margin-bottom:20px;
+	border:1px solid;
+	border-color:#AAAAAA;
+	border-radius:2px;
+	width:425px;
+	height:215px;
+	clear:none;
+	float:left;
+	margin-left:1%;
+}
+
+/* dummy */
+
+.contact-profile > p, .contact-profile > h4, .contact-profile > h5 {
+	
+	text-align:left;
+	float:right;
+	width:270px;
+}
+
+.contact-profile > p {
+	
+	margin-bottom:10px;
+}
+
+.contact-profile > h4 {
+	
+	margin:5px 0px;
+}
+
+.contact-profile > h5 {
+	
+	margin-top:5px;
+	margin-bottom:10px;
+}
+
+.contact-profile > img {
+	
+	width:135px;
+	height:184px;
+	float:left; 
+	margin-bottom:10px;
+	margin-left:5px;  
+	margin-right:15px;
+	margin-top:5px;
+}
+
+/* carousel caption styling */
+
+.carousel-caption {
+	
+	padding-top:0px;
+	padding-bottom:3px;
+}
+
+.carousel-caption-heading {
+	
+	margin-top:5px;
+	font-size: 20px;
+}
+
+.carousel-caption-heading > a {
+	
+	color:#DDDDDD;
+}
+
+.carousel-caption-text {
+	
+	margin-top:2px;
+}
+
+.carousel-caption-text > a {
+	
+	color:#DDDDDD;
+}
+
+/* style carousel small nav buttons */
+
+.carousel-indicators {
+	
+	top:auto;
+	bottom:4%;
+	right:1%;
+	padding:2px;
+}
+
+.carousel-indicators:hover {
+	
+	cursor:pointer;
+}
+
+/* style carousel nav icons */
+
+.carousel-control {
+	
+	height:40px;
+	position:absolute;
+	width:auto;
+	left:0px;
+	border-radius:0px;
+	border:none;
+	top:33%;
+	
+}
+
+.carousel-control:focus {
+	
+	opacity:.35;
+}
+
+.carousel-control:hover {
+	
+	opacity:0.75;
+}
+
+.carousel-control.right {
+	
+	right:0px;
+}
+
+.carousel-control > img {
+	
+	height:100%;
+}
+
+.carousel-control.left > img {
+	
+	float:left;
+}
+
+.carousel-control.right > img {
+	
+	float:right;
+}
+
+/* ensure width of carousel images */
+
+.carousel-inner > .item > img {
+	
+	width:100%;
+}
+
+/* style search window */
+
+.block-islandora-solr {
+    width: 100%;
+}
+
+/* style search radio buttons */
+
+form#islandora-dss-solr-advanced-search-form div div#islandora-solr-advanced-scoping {
+	
+	float:left;
+	padding-bottom:20px;
+}
+
+/* style dropdown for collection radio selection */
+
+/**
+ * Disabled by griffinj in response to issue DSSSM-617
+ *
+ */
+/*
+form#islandora-dss-solr-advanced-search-form div div.control-group.form-type-select.form-item-collection.form-item {
+	
+	float:right;
+	padding-right:144px;
+	padding-top:46px;
+}
+*/
+
+/* set width of search selection fields */
+
+#edit-collection {
+	
+	width:344px;
+}
+
+div.controls {
+	
+	width:220px;
+}
+
+form#islandora-dss-solr-advanced-search-form div div#islandora-solr-advanced-terms div div.control-group {
+
+    width: 220px;
+}
+
+/* style add search field button */
+
+form#islandora-dss-solr-advanced-search-form div div#islandora-solr-advanced-terms button.islandora-solr-search-add {
+	
+	margin-right:11px;
+	background:#F5F5F5;
+	background-image:url("../files/PlusIcon.png");
+	background-position:center;
+	border:1px solid #AAAAAA;
+	border-radius:2px;
+	box-shadow:none;
+}
+
+/* style remove search field button */	
+
+.islandora-solr-search-remove {
+	
+	background:#F5F5F5;
+	background-image:url("../files/MinusIcon.png");
+	background-position:center;
+	border:1px solid #AAAAAA;
+	border-radius:2px;
+	box-shadow:none;
+}
+
+.islandora-solr-search-remove:hover, .islandora-solr-search-remove:focus {
+	
+	background:#F5F5F5;
+	background-image:url("../files/MinusIcon.png");
+	background-position:center;
+	opacity:1;
+}
+
+/* style search return button */
+
+#edit-submit--3 {
+	
+	float:left;
+	background:#F5F5F5;
+	color:#404040;
+	border:1px solid #AAAAAA;
+	border-radius:2px;
+	text-shadow:none;
+	width:80px;
+	box-shadow:none;
+}
+
+/* add margin-below Boolean operands */
+
+.form-item-terms-0-boolean {
+	
+	margin-bottom:5px;
+}
+
+/* style search tooltip button */
+
+#search-modal-help {
+	
+	float:right;
+	margin-right:11px;
+	margin-top:16px;
+	background:#F5F5F5;
+	background-image: url("../files/TooltipIcon.png");
+	background-position: center;
+	border:1px solid #AAAAAA;
+	border-radius:2px;
+	box-shadow:none;
+}
+
+/* style LC icon in log in */
+
+.hybridauth-icon-hybridauth-32-lafayette {
+    background-image: url("../files/LCIconForWindow.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    opacity: 1;
+    border-radius: 3px;
+}
+
+/* style Facebook icon in log in */
+
+.hybridauth-facebook-hybridauth-32 {
+	
+	background-image: url("../files/facebook.png");
+}
+
+/* style Twitter icon in log in */
+
+.hybridauth-twitter-hybridauth-32 {
+	
+	background: url("../files/twitter.png");
+}
+
+/* reset icon opacity in log in */
+
+.hybridauth-icon-hybridauth-32 {
+
+    opacity: 1;
+}
+
+.hybridauth-icon-hybridauth-32:hover {
+	
+	opacity:.75;
+}
+
+/* style tooltip button in share window */
+
+#share-modal-help {
+	
+	background: none repeat scroll 0 0 #F5F5F5;
+	background-image: url("../files/TooltipIcon.png");
+	background-position: center;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    box-shadow: none;
+    width:40px;
+}
+
+/* style tooltip button in log in window */
+
+#auth-modal-help {
+	
+	background: none repeat scroll 0 0 #F5F5F5;
+	background-image: url("../files/TooltipIcon.png");
+	background-position: center;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    box-shadow: none;
+    width:40px;
+}
+
+/* style Facebook icon in share */
+
+html.js body.html header#navbar.navbar div#share-modal.lafayette-dss-modal div.modal-dialog div.modal-content div.modal-body section#block-sharethis-sharethis-block.block div.sharethis-wrapper span.st_facebook_large span.stButton span.stLarge{
+	
+	background-image: url("../files/facebook.png") !important;
+}
+
+/* style Twitter icon in share */
+
+html.js body.html header#navbar.navbar div#share-modal.lafayette-dss-modal div.modal-dialog div.modal-content div.modal-body section#block-sharethis-sharethis-block.block div.sharethis-wrapper span.st_twitter_large span.stButton span.stLarge{
+	
+	background-image: url("../files/twitter.png") !important;
+}
+
+/* style all icons in share */
+
+.sharethis-wrapper > span {
+    
+    height:32px;
+    margin-bottom:2px;
+}
+
+/* style links to people profiles */
+
+.profile-button {
+	
+	background:#DDDDDD;
+	border-radius:2px;
+	border:1px solid;
+	border-color:#AAAAAA;
+	padding:6px;
+	margin-left:5px;
+	display:none;
+}
+
+/* style browsing tabs for larger collections */
+
+ul.quicktabs-tabs {
+	
+	margin-left:1%;
+}
+
+ul.quicktabs-tabs > li {
+	
+	border-right:1px solid #545454;
+	padding:5px 8px;
+	float:left;
+}
+
+ul.quicktabs-tabs > li.first {
+	
+	border-left:1px solid #545454;
+}
+
+ul.quicktabs-tabs > li:hover {
+	
+	background:#DDDDDD;
+	text-decoration:underline;
+	color:#005580;
+}
+
+ul.quicktabs-tabs > li:hover > a {
+	
+	color:inherit;
+}
+
+ul.quicktabs-tabs > li > a:focus {
+	
+	color:#1A98DB;
+	text-decoration:none;
+}
+
+ul.quicktabs-tabs > li.active {
+	
+	background:#EEEEEE;
+}
+
+/* style EAIC sub collection divs */
+
+.east-asia-sub-collection {
+	
+	background:#F5F5F5;
+	border:1px solid #AAAAAA;
+	border-radius:2px;
+	margin:10px;
+	clear:both;
+	margin-left:0px;
+	min-height:240px;
+	margin-right:0px;
+	overflow:auto;
+}
+
+.east-asia-sub-collection > a > img {
+	
+	margin:10px;
+}
+
+/* style Lafayette prints sub collection divs */
+
+.lafayette-prints-subcollection {
+	
+	background:#F5F5F5;
+	border:1px solid #AAAAAA;
+	border-radius:2px;
+	margin:10px;
+	clear:both;
+	margin-left:0px;
+	min-height:240px;
+	margin-right:0px;
+	overflow:auto;	
+}
+
+.lafayette-prints-subcollection > a > img {
+	
+	margin:10px;
+}
+
+/* prevent subcollection and series text for EAIC and MDLP to wrap beneath thumbnails */
+
+.lafayette-prints-subcollection > a > img {
+	
+	float:none;
+}
+
+.lafayette-prints-subcollection-content {
+	
+	width:calc(100% - 250px);
+	float:right;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:0px;
+	margin-left:0px;
+}
+
+.lafayette-prints-subcollection > h2 {
+	
+	width:calc(100% - 250px);
+	float:right;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-left:0px;
+}
+
+.east-asia-sub-collection > a > img {
+	
+	float:none;
+}
+
+.east-asia-sub-collection-content {
+	
+	width:calc(100% - 250px);
+	float:right;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+.east-asia-sub-collection > h2 {
+	
+	width:calc(100% - 250px);
+	float:right;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-right:10px;
+	margin-left:0px;
+}
+
+/* style margins around nodes */
+
+.node {
+	
+	padding:0px;
+	margin-left:1%;
+	margin-right:1%;
+}
+
+/* style margin on projects */
+
+#node-12 {
+	
+	margin:0px;
+}
+
+/* style contact form height and submit button */
+
+.modal-contact-body {
+	
+	height:450px;
+	max-height:none;
+}
+
+#edit-submit--4, #edit-submit--5 {
+	
+	background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #404040;
+    float: left;
+    text-shadow: none;
+    width: 80px;
+}
+
+#webform-component-message {
+	
+	margin-bottom:5px;
+}
+
+html.js body.html div.main-container div.row-fluid section.span12 article#node-29.node div.field div.field-items div.field-item div {
+	
+	background-color: #F5F5F5;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    padding: 10px;
+    float: right;
+    text-align: center;
+}
+
+html.js body.html div.main-container div.row-fluid section.span12 article#node-29.node div.field div.field-items div.field-item div ul {
+	
+	list-style:none;
+	margin:0px;
+}
+
+html.js body.html div.main-container div.row-fluid section.span12 article#node-29.node div.field div.field-items div.field-item div h6 {
+	
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+/* style list view search results */
+
+.islandora-solr-search-results {
+	
+	margin-left:2%;
+	margin-right:1%;
+} 
+
+.islandora-solr-search-result {
+	
+	background:#F5F5F5;
+	border:1px solid #AAAAAA;
+	border-radius:2px;
+	padding:10px;
+}
+
+.solr-fields {
+	
+	border: 1px solid #AAAAAA !important;
+	background-color:#FFFFFF;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.solr-thumb {
+	
+	width:26% !important;
+}
+
+dd.solr-value {
+	
+	padding-left:1%;
+}
+
+.solr-fields dt {
+	
+	word-wrap:break-word;
+	width:33%;
+}
+
+.solr-fields dd {
+	
+	word-wrap:break-word;
+	width:67%;
+}
+
+/**
+ * @author griffinj@lafayette.edu
+ *
+ */
+
+.islandora-solr-search-result {
+
+    display: list-item;
+}
+
+.islandora-discovery-control {
+
+    display: inline-block;
+}
+
+/* reset padding of search results page */
+
+.islandora-solr-content {
+	
+	padding:0px;
+}
+
+/* style top area of both search results views */
+
+.title-sort-control {
+	
+	float:left;
+	clear:left;
+	width: 50%;
+}
+
+.field-sort, .field-sort:focus {
+	
+	background-color:#F5F5F5;
+	border-radius:2px;
+	border: 1px solid #AAAAAA;
+	margin-left: 7px;
+    padding: 2px 12px 4px 12px;
+    color: #1A98DB;
+    text-decoration:none;
+}
+
+.field-sort.active {
+	
+	background-color: #DDDDDD;
+    box-shadow: 0 0 5px 1px #EAEAEA inset;
+}
+
+.title-sort-control > span {
+	
+	float:left;
+	margin-bottom: 5px;
+    margin-top: 0px;
+    margin-right:6px;
+}
+
+.title-sort-control select {
+	
+	float:left;
+	clear:left;
+	margin-top: 3px;
+}
+
+.islandora-basic-collection-display-switch > ul > li {
+	
+	width:40px;
+	background-color:#F5F5F5;
+	text-align:center;
+	padding:1px 3px 3px;
+	border:1px solid #AAAAAA;
+	border-radius:2px;
+}
+
+.islandora-basic-collection-display-switch > ul > li > a:focus {
+	
+	text-decoration:none;
+	color:#1A98DB;
+}
+
+.islandora-discovery-controls {
+	
+	margin-left:1%;
+	margin-right:1%;
+}
+
+/**
+ * @author griffinj@lafayette.edu
+ *
+ */
+.islandora-solr-search-alert {
+
+    /* width:40px; */
+    background-color:#F5F5F5;
+    text-align:center;
+    padding:1px 3px 3px;
+    border:1px solid #AAAAAA;
+    border-radius:2px;
+    width: 100%;
+
+    clear: both;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;    
+}
+
+/* style grid view search results */
+
+.islandora img {
+	
+	max-width:100%;
+	border:1px solid #DDDDDD;
+	border-radius:3px !important;
+}
+
+.islandora-basic-collection-grid {
+	
+	font-size:0px;
+	background-color:#F5F5F5;
+	border-radius:2px;
+	border: 1px solid #AAAAAA;
+}
+
+.islandora-solr-search-results {
+	
+	clear:both;
+}
+
+.islandora-basic-collection-grid dl {
+	
+	font-size:14px;
+	margin:1%;
+	width:23%;
+	text-align:center;
+	vertical-align:top;
+}
+
+.islandora-basic-collection-grid dd {
+	
+	margin-top:3px;
+}
+
+/* style collapsing menu */
+
+div.nav-collapse.in nav ul li {
+	
+	border-bottom:1px solid #DDDDDD;
+	margin-top:0px;
+}
+
+div.nav-collapse.in nav ul li a {
+	
+	border-radius:0px;
+	margin-bottom:0px;
+}
+
+div.nav-collapse.in nav ul li.first {
+	
+	border-top:1px solid #DDDDDD;
+}
+
+div.nav-collapse.in nav ul li.last {
+	
+	border-bottom:none;
+}
+
+div.nav-collapse.in nav ul {
+	
+	margin-bottom:0px;
+}
+
+/* set z-index of search refinement hidden div */
+
+.snap-drawer-left {
+	
+	z-index:-1;
+}
+
+/* style image viewer */
+
+#book-page-viewer {
+	
+	margin-left:1%;
+	margin-right:1%;
+}
+
+body > div#islandora-openseadragon {
+	
+	padding-left:0px;
+	padding-right:0px;
+}
+
+/* style image viewer controls */
+
+.openseadragon-controls-navigator > fieldgroup > button {
+	
+	background-color:#EEEEEE !important;
+	border:1px solid #AAAAAA !important;
+	border-radius:2px;
+	margin-top:2px !important;
+	margin-right:4px !important;
+	margin-bottom:5px !important;
+	margin-left:0px !important;
+}
+
+#openseadragon-size-transform-container > span > fieldgroup > button > img {
+	
+	opacity:1 !important;
+}
+
+body > div#islandora-openseadragon > form > #openseadragon-size-transform-container {
+	
+	margin-top:5px !important;
+	margin-left:5px !important;
+}
+
+.openseadragon-controls-container {
+	
+	margin-right:1%;
+}
+
+/* ensure equal spacing and proper alignment among icons/links in authentication window */
+
+.hybridauth-widget-wrapper > h3 {
+    
+    display:none;
+}
+
+#block-hybridauth-hybridauth {
+	
+	margin-top:1px;
+	margin-left:1px;
+}
+
+/* style search refinement panel */
+
+.islandora-solr-facet {
+	
+	font-size: 15px;
+    font-weight: bold;
+}
+
+.islandora-solr-facet-list {
+	
+	word-wrap:break-word;
+}
+
+.islandora-solr-facet {
+	
+	word-wrap:break-word;
+}
+
+/* get rid of styling on div surrounding each projects tab "page" within projects page */
+
+#block-nodeblock-12 {
+	
+	background: none;
+    border: none;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#block-nodeblock-44 {
+	
+	background: none;
+    border: none;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#node-44 {
+	
+	margin-left:0;
+	margin-right:0;
+}
+
+/* get rid of second instance of "projects" heading on projects page */
+
+#block-quicktabs-projects > h2 {
+	
+	display:none;
+}
+
+/* style sliders on refinement controls for search results */
+
+.islandora-solr-facet-date-init {
+	
+	float:left;
+	margin-left: 6%;
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+
+.islandora-solr-facet-date-term {
+	
+	float:right;
+	margin-right: 6%;
+    margin-top: 5px;
+}
+
+.islandora-solr-facet {
+	
+	clear:both;
+}
+
+.ui-slider .ui-slider-handle {
+	
+	width:9%;
+}
+
+.ui-slider-handle {
+	
+	background-color: #F5F5F5 !important;
+    background-image: none !important;
+    border-color: #AAAAAA !important;
+}
+
+.ui-slider-handle {
+	
+	border-radius:2px !important;
+}
+
+.ui-slider-handle:hover {
+	
+	cursor:pointer;
+}
+
+
+.ui-slider-range {
+	
+	background-color:#DDDDDD !important;
+}
+
+.ui-slider-horizontal .ui-slider-left {
+	
+	margin-left:-9%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.ui-slider-horizontal .ui-slider-right {
+	
+	margin-left:0px;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.islandora-solr-facet-date-slider {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* style facet removal controls */
+
+.islandora-solr-facet-token-list {
+	
+	list-style:none;
+	margin-top:12px;
+	margin-left:0px;
+}
+
+.islandora-solr-facet-token {
+	
+	background-color:#F5F5F5;
+	-moz-box-sizing:content-box;
+	padding: 1px 6px 3px 5px;
+	height:auto;
+	vertical-align:auto;
+}
+
+.islandora-solr-facet-token:hover {
+	
+	cursor:pointer;
+}
+
+.islandora-solr-facet-token > span.close {
+	
+	color: #7E7E7E;
+    opacity: 1;
+    float:right;
+    margin-top:-1px;
+    margin-right:0px;
+    margin-left:4px;
+}
+
+/* style show more lightbox from search refinement */
+
+.ui-widget-header {
+	
+	background:none;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom:1px solid #EEEEEE;
+}
+
+.ui-corner-all {
+	
+	border-radius:0px;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	
+	padding: 0.6em 1em;
+}
+
+.ui-dialog {
+	
+	padding:0px;
+}
+
+#edit-fields {
+	
+	border: 1px solid #CCCCCC;
+	padding:2px;
+	border-radius:2px;
+}
+
+#edit-submit {
+	
+	background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #404040;
+    text-shadow: none;
+    margin-top:8px;
+}
+
+/* style search refinement lightbox alert */
+
+.ui-dialog-buttonpane {
+	
+	border:none;
+	margin-top:0px;
+}
+
+.ui-dialog-buttonset > button {
+	
+	background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #404040;
+    text-shadow: none;
+    margin-top:8px;
+    padding:4px 12px;
+}
+
+/* set width of refinement panel and page content when refinement panel is displayed on search results */
+
+.snap-drawers.snap-expand-left {
+	
+    width: 24%;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 2px;
+    border-right: 1px solid #CCCCCC;
+    padding-right: 1%;
+}
+
+.main-container.snap-expand-left {
+	
+    width: 74%;
+}
+
+/* style metadata on multiple-image object level pages */
+
+.islandora-book-fields > dt {
+	
+	width: 30%;
+    word-wrap: break-word;
+    float:left;
+    clear:both;
+    padding-left:1%;
+    padding-right:1%;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	border-right: 1px solid #CCCCCC;
+	margin-right: -1px;
+}
+
+.islandora-inline-metadata-displayed {
+	
+	border-top:1px solid #CCCCCC;
+}
+
+.islandora-book-fields > dd {
+	
+	width: 70%;
+    word-wrap: break-word;
+    float:left;
+    border-top:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    padding-left:1%;
+    padding-right:1%;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.islandora-book-fields > dt.first {
+	
+	border-top:none;
+}
+
+.islandora-book-fields > dd.first {
+	
+	border-top:none;
+}
+
+.islandora-book-metadata {
+	
+    display: block;
+    margin: 30px auto 10px;
+    width: 80%;
+}
+
+.islandora-book-metadata > legend {
+	
+	display:none;
+}
+
+/* ensure display of metadata on pdf and single-image object level pages */
+
+html.js fieldset.collapsed .fieldset-wrapper {
+	
+	display:block;
+}
+
+html.js fieldset.collapsed {
+	
+	height:auto;
+}
+
+/* style metadata on single-image object level pages */
+
+.islandora-large-image-metadata > legend {
+	
+	display:none;
+}
+
+.islandora-large-image-metadata {
+	
+	display: block;
+    margin: 30px auto 10px;
+    width: 80%;
+}
+
+.islandora-inline-metadata > dt {
+	
+	width: 30%;
+    word-wrap: break-word;
+    float:left;
+    clear:both;
+    padding-left:1%;
+    padding-right:1%;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	border-right: 1px solid #CCCCCC;
+	margin-right: -1px;
+	text-align:left;
+}
+
+.islandora-inline-metadata-displayed {
+	
+	border-top:1px solid #CCCCCC;
+}
+
+.islandora-inline-metadata > dd {
+	
+	width: 70%;
+    word-wrap: break-word;
+    float:left;
+    border-top:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    padding-left:1%;
+    padding-right:1%;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* style metadata for PDF object level pages */
+
+.islandora-pdf-metadata > legend {
+	
+	display:none;
+}
+
+.islandora-pdf-metadata {
+	
+	display: block;
+    margin: 30px auto 10px;
+    width: 80%;
+}
+
+/* ensure pdf viewer background texture is not applied to entire page */
+
+body {
+	
+	background-image:none;
+}
+
+/* style no search results message */
+
+.no-results {
+	
+	font-size:20px;
+	padding-top:10px;
+	margin-bottom:9px;
+}
+
+/* reset opacity of close links in navbar widgets */
+
+.close {
+	
+	opacity:0.3;
+}
+
+/* style close text for refine lightbox and alert */
+
+.ui-dialog .ui-dialog-titlebar-close {
+	
+	font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color:#000000;
+    opacity:0.3;
+    margin-top:-11px;
+    margin-right:5px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding:0px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover {
+	
+	opacity:0.4;
+	background:none;
+	border:0px;
+	text-decoration:none;
+	text-shadow:none;
+}
+
+/* style div around browse links on collection pages */
+
+.browse-block {
+	
+	background-color: #F5F5F5;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    float: right;
+    padding: 10px;
+    text-align: center;
+    margin-left:10px;
+    padding-bottom:0px;
+}
+
+.browse-block > ul {
+	
+	margin:0px;
+	list-style:none;
+}
+
+.browse-block > p {
+	
+	text-decoration:underline;
+	text-align:center;
+}
+
+.browse-block > div > p {
+	
+	text-align:center;
+	margin-top:10px;
+}
+
+.browse-block > div > p > img {
+	
+	vertical-align:bottom;
+}
+
+.browse-block.east-asia {
+	
+    width:224px;
+    height:160px;
+    margin-bottom:8px;
+}
+
+.browse-block.geology {
+	
+	width:208px;
+	height:160px;
+}
+
+.browse-block.geology > div > p > img {
+	
+	margin-right:1px;
+}
+
+.browse-block.visual {
+	
+	width:165px;
+	height:115px;
+}
+
+.browse-block.historical {
+	
+	width:208px;
+	height:140px;
+}
+
+.browse-block.wwii {
+	
+	width:208px;
+	height:140px;
+}
+
+.browse-block.newspaper {
+	
+	width:208px;
+	height:100px;
+}
+
+.browse-block.mdlp {
+	
+	width:165px;
+	height:140px;
+	margin-bottom:8px;
+}
+
+.browse-block.mckelvy {
+	
+	width:208px;
+	height:120px;
+}
+
+/* make styling on single-page item viewer match multi-page item viewer */
+
+body.no-sidebars .islandora-large-image-content {
+	
+	float:none;
+	width:auto;
+}
+
+.islandora-large-image-content {
+	
+	background-color:none;
+	border:none;
+	border-radius:0px;
+	padding:0px;
+}
+
+.islandora-large-image-content-wrapper {
+	
+	margin-left:1%;
+	margin-right:1%;
+}
+
+/* set margins on multi-page item viewer */
+
+#book-viewer {
+	
+	margin-left:1%;
+	margin-right:1%;
+}
+
+/* styling for PDF viewer */
+
+.islandora-pdf-content-wrapper {
+	
+	margin-left:1%;
+	margin-right:1%;
+}
+
+/* implement styling to center contact div on pages */
+
+
+#contact {
+	
+	background:none;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    outline: none;
+    z-index:100 !important;
+    margin-left:calc((100% - 502px) / 2);
+    width:502px;
+    height:auto;
+}
+
+#contact > div.modal-dialog {
+	
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    box-shadow: 1px 3px 11px rgba(0, 0, 0, 0.5);
+    width:500px;
+    margin-top:35px;
+}
+
+#contact > div.modal-dialog > div.modal-content {
+	
+	height:550px;
+}
+
+.modal-contact-body {
+	
+	height:456px;
+}
+
+/* style contact form labels */
+
+#webform-component-your-name > label {
+	
+	width:82px;
+}
+
+#webform-component-your-e-mail-address > label {
+	
+	width:140px;
+}
+
+#webform-component-subject > label {
+	
+	width:60px;
+}
+
+#webform-component-message > label {
+	
+	width:68px;
+}
+
+/* style contact page for smartphone users */
+
+.span12 > #node-9 > div {
+	
+	font-size:16px;
+}
+
+.span12 > #node-9 > form > div > div > div > textarea {
+	
+	height:150px;
+}
+
+.span12 > #node-9 > form > div > div > label {
+	
+	font-weight:bold;
+}
+
+.span12 > #node-9 > form > div > div#webform-component-your-name > label {
+	
+	width:85px;
+}
+
+.span12 > #node-9 > form > div > div#webform-component-your-e-mail-address > label {
+	
+	width:150px;
+}
+
+.span12 > #node-9 > form > div > div#webform-component-subject > label {
+	
+	width:65px;
+}
+
+.span12 > #node-9 > form > div > div#webform-component-message > label {
+	
+	width:75px;
+}
+
+/* style pdf viewer */
+
+.toolbarField:hover, .toolbarField:focus {
+	
+	background-color:#FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+
+.islandora-pdf-content {
+	
+	background-color:#F5F5F5;
+}
+
+.toolbar {
+	
+	margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+}
+
+#toolbarContainer, .findbar {
+	
+	background-image: linear-gradient(to bottom, #545454, #333333);
+}
+
+.secondaryToolbar {
+	
+	background-color:#333333;
+	background-image:none;
+}
+
+/* style multi-page image viewer thumbnail navigation controls */ 
+
+.referencestrip {
+	
+	margin-left:0px !important;
+	background-color:#F5F5F5 !important;
+	width:174px !important;
+	opacity:1 !important;
+	height:auto !important;
+	border:1px solid #CCCCCC !important;
+	border-radius:2px !important;
+}
+
+.referencestrip > div > form > textarea {
+	
+	display:none;
+}
+
+.referencestrip > div {
+	
+	width:174px !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+
+.referencestrip-unselected > form > div > canvas {
+	
+	background-color:#F5F5F5 !important;
+}
+
+.referencestrip-unselected {
+	
+	background-color:#F5F5F5 !important;
+}
+
+.referencestrip-selected {
+	
+	padding-top:4px !important;
+	padding-bottom:4px !important;
+	background-color:#E9E9E9 !important;
+}
+
+.referencestrip-selected > form > div > canvas {
+	
+	background-color:#E9E9E9 !important;
+}
+
+/* suppress view of thumbnail navigation on single-page image objects */
+
+.islandora-large-image-content > div > form > div > span > div.referencestrip {
+	
+	display:none !important;
+}
+
+.islandora-large-image-content > div > form > div > span.referencestrip-container {
+	
+	display:none !important;	
+}
+
+/* justified text across entire site (where necessary) */
+
+p {
+	
+	text-align:justify;
+}
+
+/* style navigator on image viewer */
+
+.navigator {
+	
+	border: 1px solid #555555 !important;
+}
+
+.displayregion {
+	
+	border: 1px solid #990000 !important;
+}
+
+/* underline item detail heading on item pages */
+
+.islandora-image-details {
+	
+	border-bottom: 1px solid #000000;
+    line-height: 24px;
+}
+
+/* fix text height issue for pdf viewer page number input and zoom dropdown selector */
+
+#pageNumber {
+	
+	padding:0px 2px;
+}
+
+#scaleSelect {
+	
+	line-height:20px;
+}
+
+/* add margin to left of download links div on metadb page */
+
+.download-block.metadb {
+	
+	margin-left:10px;
+}
+
+/* style pagination controls */
+
+.pagination {
+	
+	margin-bottom:0px;
+}
+
+.pagination ul > li > a, .pagination ul > li > span {
+	
+	padding:4px 10px;
+}
+
+.pagination > ul > li > a:hover {
+	
+	text-decoration:underline;
+}
+
+/* center title in contact block on home page */
+
+#block-nodeblock-7 > .block-title {
+	
+	text-align:center;
+}
+
+/* style search results authentication alert */
+
+.islandora-solr-search-alert {
+	
+	background:none;
+	border:none;
+	font-weight:bold;
+	font-size:18px;
+	margin-top:10px;
+}
+
+/* ensure font color in PDF viewer search box */
+
+#findInput, #findInput:hover, #findInput:focus {
+	
+	color:#000000;
+	background-color:#FFFFFF;
+} 
+
+/* reset background color for search hits in pdf viewer */
+
+.textLayer .highlight.selected {
+	
+	background-color:rgba(243, 243, 21, 0.5);
+}
+
+.textLayer .highlight {
+	
+	background-color:rgba(0, 118, 245, 0.3);
+}
+
+/* ensure pagination div is below other search control elements */
+
+.pagination-count {
+	
+	clear:both;
+}
+
+/* style pagination to indicate current page */
+
+.pager-current > a {
+	
+	background-color:#E2E2E2 !important;
+	box-shadow: inset 0px 0px 5px 1px #EAEAEA;
+	-moz-box-shadow: inset 0px 0px 5px 1px #EAEAEA;
+	-webkit-box-shadow: inset 0px 0px 5px 1px #EAEAEA;
+}
+
+/* fix color of page heading on search results */
+
+.lead {
+	
+	color:#1A98DB;
+}
+
+/* reset carousel transition length */
+
+.carousel-inner > .item {
+	
+	transition:left 2s ease-in-out 0s;
+}
+
+/* set color of active dot on carousel */
+
+.carousel-indicators .active {
+	
+	background-color: #EEEEEE;
+}
+
+/* style services page */
+
+#digitizer {
+	
+	border-radius: 2px;
+    float: left;
+    height: 120px;
+    margin-right: 15px;
+    margin-top: 5px;
+    width: 120px;
+    margin-bottom:15px;
+}
+
+#node-3 > div > div > div > h1, #node-3 > div > div > div > h2, #node-3 > div > div > div > h3 {
+	
+	line-height:24px;
+}
+
+/* style navbar widget help popovers */
+
+.popover-content {
+	
+	text-align:justify;
+} 
+
+/* style CAS authentication alert */
+
+.alert-block {
+	
+	max-width:315px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+/* text-justification for page headings */
+
+#page-header > p {
+	
+	text-align:left;
+}
+
+/* styling results page for searching within site */
+
+.search-result > h3 {
+	
+	font-size:23px;
+	line-height:25px;
+	margin:0px;
+}
+
+.search-result > h3 > a {
+	
+	font-weight:normal;
+}
+
+.search-snippet-info {
+	
+	margin-top:4px;
+}
+
+.search-results.node-results {
+	
+	margin-left:1%;
+	margin-right:1%;
+	list-style:none;
+}
+
+/* styling for newspaper content dm access page */
+
+.section {
+	
+	width:250px;
+	float:right;
+	margin-left:15px;
+}
+
+#context-search-form {
+	
+	padding:10px;
+	margin:0px;
+}
+
+#context-search-form > h5, #context-search-form > h6,  #context-search-form > p {
+	
+	text-align:center;
+}
+
+/* style paragraphs on repositories page */
+
+#node-4 > div > div > div > p, #node-4 > div > div > div > ul {
+	
+	padding-left:40px;
+}
+
+/* style redirect page */
+
+#node-47 > div > div > div {
+	
+	background-color: #F5F5F5;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px;
+    font-size: 16px;
+    margin: 20px auto 25px;
+    padding: 8px 10px 10px;
+    text-align: justify;
+    width: 82%;
+}
+
+/* by Thom: style updated collections that no longer has quicktabs */
+
+#node-45 {
+	
+	margin:0px;
+}
+
+#digitalScholarship {
+	
+	float:left;
+	width:100%;
+	padding-top: 45px;
+	margin-top: -45px;
+	padding-bottom: 15px;
+}
+
+#lafayetteLibrariesCollections {
+	
+	float:left;
+	width:100%;
+	padding-top: 45px;
+	margin-top: -45px;
+}
+
+#lafayetteLibrariesCollections {
+	
+	margin-bottom:10px;
+}
+
+#lafayetteLibrariesCollections h2 {
+	
+	margin-top:0px;
+}
+
+#collectionsJumpNav {
+	
+	margin-left:10px;
+	margin-right:10px;
+	background-color: #f5f5f5;
+    border: 1px solid #aaaaaa;
+    border-radius: 2px;
+    padding: 10px;
+    width: 435px;
+    margin-bottom:10px;
+    font-size:15px;
+    display:none;
+}
+
+#collectionsJumpNav ul {
+	
+	list-style:none;
+}
+
+#collectionsJumpNav p {
+	
+	margin:0px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+/*
+ * @author griffinj
+ * Resolving DSSSM-308
+ */
+
+body {
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+body > * {
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+
+
+
+/* printing style sheet */
+
+@media print {
+	
+	.navbar-inner {
+		
+		display:none;
+	}
+	
+	a:after {
+		
+		display:none;
+	}
+	
+	p.lead {
+		
+		text-align:left;
+	}
+	
+	.navigator {
+		
+		display:none !important;
+	}
+	
+	.openseadragon-controls-navigator {
+		
+		display:none !important;
+	}
+	
+	.referencestrip {
+		
+		display:none !important;
+	}
+	
+	.openseadragon-controls-container > canvas {
+		
+		max-height:100% !important;
+		height:auto !important;
+	}
+	
+	#book-viewer {
+		
+		height:280px;
+	}
+	
+	.islandora-large-image-content-wrapper {
+		
+		height:280px;
+	}
+	
+	.contact-profile {
+		
+		clear:both;
+		float:none;
+	}
+	
+	#john {
+		
+		page-break-after:always;
+	}
+	
+	#paul {
+		
+		page-break-after:always;
+	}
+	
+	#toolbar, .nav.nav-tabs, .alert.alert-block.alert-success {
+		
+		display:none;
+	}
+	
+	#page-header {
+		
+		text-align:left;
+	}
+	
+}

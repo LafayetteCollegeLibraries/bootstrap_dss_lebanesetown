@@ -1,0 +1,168 @@
+--- css/style.css	2013-12-10 16:05:34.964697874 -0500
++++ css_deprecated/style.css	2013-12-10 15:00:56.427577107 -0500
+@@ -50,6 +50,48 @@
+       */
+ }
+ 
++.nav-tabs {
++
++    margin-bottom: 0px;
++}
++
++.nav-tabs > li > a {
++
++    background-color: #cccccc;
++    border-color: #ffffff;
++}
++
++.nav-tabs > li > a:hover,
++.nav-tabs > li > a:focus {
++
++    background-color: #ffffff;
++    border-color: #ffffff;
++}
++
++#block-system-navigation .menu.nav a {
++
++    font-size: large;
++    padding: 0px 0px 6px;
++    color: #CDD3CD;
++}
++
++.well {
++
++    padding: 12px;
++}
++
++.well section {
++
++    margin-top: 6px;
++}
++
++.well .block {
++
++    background-color: #590000;
++    border-radius: 4px 4px 4px 4px;
++    padding: 6px;
++}
++
+ /* Remove the backdrop */
+ /* Work-around; refactor */
+ div.modal-backdrop.fade.in {
+@@ -287,6 +329,78 @@
+ body {
+ 
+     padding-top: inherit;
++    background-color: #590000;
++}
++
++article {
++
++    background-color: #ffffff;
++    padding: 8px;
++}
++
++header#page-header {
++
++    color: #CDD3CD;
++}
++
++.breadcrumb {
++
++    background-color: #cccccc;
++    border-bottom: 1px solid #4C4C45;
++    border-left: 1px solid #ADA86B;
++    border-top: 1px solid #ADA86B;
++}
++
++.breadcrumb a {
++
++    color: #404040;
++}
++
++.breadcrumb a:hover,
++.breadcrumb a:focus {
++
++    color: #990000;
++    text-decoration: none;
++}
++
++#block-menu-menu-footer-menu {
++
++    background-color: #CCCCCC;
++    border-bottom: 1px solid #4C4C45;
++    border-left: 1px solid #ADA86B;
++    border-top: 1px solid #ADA86B;
++}
++
++#block-menu-menu-footer-menu .menu {
++
++    margin-top: 10px;
++}
++
++#block-menu-menu-footer-menu a {
++
++    color: #404040;
++}
++
++#block-menu-menu-footer-menu a:hover,
++#block-menu-menu-footer-menu a:focus {
++
++    color: #990000;
++    text-decoration: none;
++}
++
++.main-container section.span9 section.block {
++
++    background-color: #ffffff;
++    margin-top: 8px;
++    margin-right: 8px;
++    width: 360px;
++    float: left;
++    padding: 8px;
++}
++
++.main-container section.span9 section#block-nodeblock-7 h2.block-title {
++
++    font-size: large;
+ }
+ 
+ .navbar-header {
+@@ -358,9 +472,19 @@
+ /* set background gradient of navbar and ensure no navbar border */
+ 
+ .navbar-inner {
+-	background-image: linear-gradient(to bottom, #545454, #333333);
+-	border: none;
+-	border-radius: 0px;
++
++    /*
++      807e6f
++      */
++    background-image: linear-gradient(to bottom, #cac6ac, #807e6f);
++    /* background-image: linear-gradient(to bottom, #f2f0e0, #cac6ac); */
++    border: none;
++    border-radius: 0px;
++}
++
++.navbar-inner a {
++
++    color: #2d2d27;
+ }
+ 
+ /* add margin to left of advanced link */
+@@ -422,11 +546,10 @@
+ 	height:65px;
+ }
+ 
+-/* set color of hyperlinks */
+-
+ a {
+-	
+-	color: #1A98DB;
++
++    /* font-family: 'Roboto', sans-serif; */
++    color: #0000A0;
+ }
+ 
+ /* adjust margin above search elements */

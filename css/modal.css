@@ -1,0 +1,195 @@
+/**
+   @file
+   * Theming specific to the modals
+   *
+   */
+
+#islandora-solr-simple-search-form div a, #auth-control-container > a, #share-control-container > a {
+
+    cursor: pointer;
+}
+
+#contact.lafayette-dss-modal .modal-dialog {
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    opacity: 0.1;
+}
+
+#contact.lafayette-dss-modal .modal-dialog.shown-faded {
+
+    /*
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    */
+
+    opacity: 1.0;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    div#advanced-search-modal.shown {
+	
+	left: inherit;
+	margin: auto;
+    }
+}
+
+div#advanced-search-modal.shown {
+
+    top: 152px;
+    right: 12px;
+}
+
+div#auth-modal.shown {
+
+    /*
+    top: 164px;
+    */
+    top: 0px;
+    right: 0px;
+
+    /*
+      width: 16%;
+      */
+    width: 262px;
+}
+
+div#share-modal.shown {
+
+    /*
+    top: 164px;
+    */
+    top: 0px;
+    right: 0px;
+
+    /*
+    width: 16%;
+    */
+    width: 262px;
+}
+
+#auth-modal-help,
+#share-modal-help {
+
+    float: right;
+}
+
+div#contact.shown {
+
+    /* top: 164px; */
+    top: 0px;
+    left: 0px;
+}
+
+div#contact.shown div.modal-dialog div.modal-content div.modal-body section#block-nodeblock-2.block div#node-2.node div.content form#webform-client-form-2.webform-client-form div div#webform-component-message.form-item div.form-textarea-wrapper textarea#edit-submitted-message.form-textarea {
+
+    height: 56px;
+}
+
+/**
+ * Styling rules specific to the advanced search modal
+ *
+ */
+
+.lafayette-dss-modal {
+
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    /*
+      left: 50%;
+      margin-left: -280px;
+      */
+    outline: medium none;
+    /*
+      position: fixed;
+      top: 10%;
+      */
+    width: 560px;
+    z-index: 1050;
+    display: none;
+
+    position: absolute;
+}
+
+.modal-contact-body {
+
+    max-height: none;
+}
+
+#contact {
+
+    height: calc(100% - 197px);
+}
+
+#contact.affixed {
+
+    height:calc(100% - 55px);
+}
+
+/**
+ * Bootstrap Popover widgets
+ *
+ */
+
+.popover.bottom .arrow {
+
+    left: 86%;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    .popover.bottom .arrow {
+
+	left: 50%;
+	z-index: 20000;
+    }
+}
+
+.close {
+
+    color: #0088CC;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    opacity: inherit;
+    text-shadow: inherit;
+}
+
+
+.close:hover, .close:focus {
+
+    color: #005580;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+body div.popover {
+
+    z-index: 500000;
+}
+
+form#islandora-dss-solr-advanced-search-form div div#islandora-solr-advanced-terms button.islandora-solr-search-add.raised {
+
+    margin-top: -40px;
+    
+}
+
+#search-modal-help.raised {
+
+    margin-top: -30px;
+}

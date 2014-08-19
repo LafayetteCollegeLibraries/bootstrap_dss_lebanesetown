@@ -1,0 +1,303 @@
+
+/**
+ * Tablet-specific styling
+ *
+ */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    div.auth-share-simple-search-container {
+
+	width: 54%;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+    div.auth-share-simple-search-container {
+
+	width: 54%;
+    }
+}
+
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 1024px) {
+
+    .carousel-control > img {
+	
+		height:10px;
+	}
+}
+
+/**
+ * Smartphone-specific styling
+ *
+ */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 580px) {
+
+	/* styling by Thom to address search results page with and without refine panel */
+
+	.islandora-basic-collection-display-switch {
+		
+		clear:both;
+		float:left;
+	}
+	
+	#field-sort-select {
+		
+		margin-top:10px;
+	}
+
+	.drawers.snap-drawers.snap-expand-left {
+		width:39%;
+	}
+	
+	.main-container.container.snap-collapse-left.snap-expand-left {
+		
+		width:59%;
+		margin-left:1%;
+	}
+	
+	.pagination ul > li > a, .pagination ul > li > span {
+		
+		padding:2px 6px !important;
+	}
+	/* end of styling for search results page */
+	
+	/* styling for home page by Thom */
+	
+	.main-container section.block-aggregator, .main-container section.block-nodeblock {
+		
+		width:calc(98% - 10px) !important;
+		margin-left:0px !important;
+		margin-right:0px !important;
+		float:none !important;
+		padding:5px !important;
+	}
+	
+	/* end of home page */
+	
+	/* search widget window styling by Thom */
+	
+	#advanced-search-modal {
+		
+		width:400px !important;
+	}
+	
+	.controls {
+		
+		width:180px !important;
+	}
+	
+	#edit-collection {
+		
+		width:180px !important;
+	}
+	
+	#edit-collection > option {
+		
+		width:180px !important;
+	}
+	
+	#islandora-solr-advanced-scoping {
+		
+		padding-bottom:0px !important;
+	}
+	
+	.islandora-solr-search-field.form-select {
+		
+		width:180px !important;
+	}
+	
+	.controls > input {
+		
+		width:180px !important;
+	}
+	
+	.control-group.form-type-textfield {
+		
+		margin-left:0px !important;
+	}
+	
+	.islandora-solr-search-add {
+		
+		display:none !important;
+	}
+	
+	#search-modal-help {
+		
+		display:none !important;
+	}
+	
+	/* end of search widget */
+	
+	/* breadcrumb, copyright, and contact by Thom */
+	
+	ul.breadcrumb {
+		
+		float:none;
+		width:100%;
+		margin-bottom: 2px;
+	}
+	
+	#page-site-links-container {
+		
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+	
+	#contact-container {
+		
+		width:calc(50% - 31px) !important;
+	}
+	
+	#copyright-container {
+		
+		width:calc(50% - 31px) !important;
+	}
+	
+	/* end of breadcrumb, copyright, and contact */
+	
+    #simple-search-item {
+
+	/* width: 100%; */
+	border-left: 0px;
+    }
+
+    #simple-search-item #islandora-solr-simple-search-form {
+
+	/* width: 71.5%; */
+	margin-left: auto;
+	margin-right: auto;
+    }
+
+    #simple-search-item #islandora-solr-simple-search-form div a {
+
+	margin-left: auto;
+    }
+
+    /* Refactor */
+    .navbar-header h2 {
+	
+		font-size: 17px !important;
+		margin-right:0px !important;
+		line-height:17px !important;
+		margin-top:70px !important;
+    }
+
+    div.navbar-header h1 a {
+
+		font-size: 23px !important;
+    }
+    
+    div.navbar-header h1 {
+    	
+    	margin-right:0px !important;
+    	line-height: 23px !important;
+    }
+
+    .navbar .logo {
+
+		margin-left: inherit;
+    }
+
+
+    /**
+     * Refactor: disable the simple search block for smartphones
+     */
+
+
+    .region-simple-search {
+
+	display: none;
+    }
+
+
+    /**
+     * Refactor: remove the navbar padding for smartphones
+     */
+
+    .navbar-inner {
+
+	padding-left: 0px;
+	padding-right: 0px;
+    }
+
+    .modal-container.container,
+    .modal-control-container.container {
+
+	margin: 0 2px;
+	width: auto;
+    }
+
+    .modal-control-container div span {
+
+	font-size: 0.88em;
+    }
+
+    .logo-container a img {
+
+	height: 50px;
+    }
+
+    /**
+     * For dev
+     *
+     */
+
+    div.navbar-collapse-toggle div span.btn-navbar {
+
+	/* display: none !important; */
+    }
+
+    div.simple-search-icon img {
+
+	height: 32px;
+    }
+
+    /**
+     * Placement of blocks for smartphones
+     *
+     * Overrides for dss_digital
+     */
+
+    html.js body.html div.main-container div.row-fluid section.span12 section#block-aggregator-feed-2.block,
+    html.js body.html div.main-container div.row-fluid section.span12 section#block-nodeblock-7.block {
+	
+	float: none !important;
+    }
+
+    body {
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    body > * {
+
+        padding-left: 20px;
+	padding-right: 20px;
+    }
+
+    header {
+
+	padding-left: 0px;
+	padding-right: 0px;
+    }
+
+    /* Work-around */
+    #menu-toggle-control-container {
+
+	margin-top: 1px;
+	width: 36px;
+    }
+}
