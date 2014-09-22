@@ -52,8 +52,7 @@ function bootstrap_dss_lebanesetown_preprocess_node(&$vars) {
 					   );
 
     // For all <meta> elements
-    $meta_elements = array(
-			   'meta_element_open_graph_type' => $meta_element_open_graph_type,
+    $meta_elements = array('meta_element_open_graph_type' => $meta_element_open_graph_type,
 			   'meta_element_open_graph_url' => $meta_element_open_graph_url,
 			   'meta_element_open_graph_author' => $meta_element_open_graph_author,
 			   'meta_element_open_graph_title' => $meta_element_open_graph_title,
@@ -577,22 +576,25 @@ function bootstrap_dss_lebanesetown_preprocess_islandora_large_image(array &$var
 
   // Refactor
   // Retrieve the MODS Metadata
-  try {
+  if(isset($object['MODS'])) {
 
-    $mods_str = $object['MODS']->content;
+    try {
 
-    $mods_str = preg_replace('/<\?xml .*?\?>/', '', $mods_str);
-    $mods_object = new DssMods($mods_str);
-  } catch (Exception $e) {
+      $mods_str = $object['MODS']->content;
+
+      $mods_str = preg_replace('/<\?xml .*?\?>/', '', $mods_str);
+      $mods_object = new DssMods($mods_str);
+    } catch (Exception $e) {
     
-    drupal_set_message(t('Error retrieving object %s %t', array('%s' => $object->id, '%t' => $e->getMessage())), 'error', FALSE);
+      drupal_set_message(t('Error retrieving object %s %t', array('%s' => $object->id, '%t' => $e->getMessage())), 'error', FALSE);
+    }
+
+    $label_map = array_flip(islandora_solr_get_fields('result_fields', FALSE));
+    //$facet_pages_fields_data = variable_get('islandora_solr_facet_pages_fields_data', array());
+    //$label_map = array();
+
+    //$element['facet'] = $label_map[$facet];
   }
-
-  $label_map = array_flip(islandora_solr_get_fields('result_fields', FALSE));
-  //$facet_pages_fields_data = variable_get('islandora_solr_facet_pages_fields_data', array());
-  //$label_map = array();
-
-  //$element['facet'] = $label_map[$facet];
 
   /**
    * Resolves DSS-261
