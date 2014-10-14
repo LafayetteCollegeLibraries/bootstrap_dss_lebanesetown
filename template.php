@@ -655,12 +655,15 @@ function bootstrap_dss_lebanesetown_preprocess_islandora_book_book(array &$varia
     // Retrieve the MODS Metadata
     try {
 
-      $mods_str = $object['MODS']->content;
+      if(isset($object['MODS'])) {
 
-      $mods_str = preg_replace('/<\?xml .*?\?>/', '', $mods_str);
-      //$mods_str = '<modsCollection>' . $mods_str . '</modsCollection>';
+	$mods_str = $object['MODS']->content;
 
-      $mods_object = new DssMods($mods_str);
+	$mods_str = preg_replace('/<\?xml .*?\?>/', '', $mods_str);
+	//$mods_str = '<modsCollection>' . $mods_str . '</modsCollection>';
+
+	$mods_object = new DssMods($mods_str);
+      }
     } catch (Exception $e) {
     
       drupal_set_message(t('Error retrieving object %s %t', array('%s' => $object->id, '%t' => $e->getMessage())), 'error', FALSE);
