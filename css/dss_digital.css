@@ -2249,6 +2249,23 @@ header {
     padding-right: 0px;
 }
 
+/* @author goodnowt style header banner */
+
+.navbar {
+	
+	margin-bottom:0px;
+}
+
+.navbar-header {
+	
+	background-image: linear-gradient(left, #748AA1, #667c93);
+	background-image: -webkit-linear-gradient(left, #748AA1, #667c93);
+	background-image: -moz-linear-gradient(left, #748AA1, #667c93);
+	background-image: -o-linear-gradient(left, #748AA1, #667c93);
+	background-repeat: no-repeat, repeat;
+    padding: 6px;
+}
+
 
 
 
